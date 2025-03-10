@@ -5,7 +5,9 @@ public class ToDoItem {
     private String Task;
     private int Status;
 
-    public ToDoItem( int status, String task) {
+    public ToDoItem( int id, int status, String task) {
+
+        Id=id;
         Status = status;
         Task = task;
     }
